@@ -38,7 +38,7 @@ github = "https://github.com/biogen98"
 linkedin = "https://www.linkedin.com/in/jan-adriaan-stevens"
 stackoverflow = "https://stackoverflow.com/users/user"
 mail = "mailto:stevens.jan.adriaan@gmail.com"
-cv = "/pdf/cv.pdf"
+cv = "https://jstevens.be/pdf/cv.pdf"
 footer = ["mail", "github", "linkedin", "facebook", "cv"]
 
 [params.services]
@@ -130,7 +130,7 @@ name = "Contact"
 weight = 2
 
 [[menu.main]]
-url = "/pdf/cv.pdf"
+url = "https://jstevens.be/pdf/cv.pdf"
 name = "curiculum vitae"
 weight = 4
 
