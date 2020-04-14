@@ -1,0 +1,8 @@
+# See https://www.jhaurawachsman.com/hugo-deploy-rsync-optimized/
+#!/bin/zsh
+USER=username
+HOST=ip_or_hostname
+DIR=domain.com/public/
+rsync -azvh --exclude='.DS_Store' --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0

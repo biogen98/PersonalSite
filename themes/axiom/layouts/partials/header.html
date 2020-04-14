@@ -1,0 +1,33 @@
+<header id="nav" class="relative shadow-b bg-white">
+  <div class="px-4 py-3">
+    <div class="flex items-center mx-auto max-w-6xl">
+      <div class="logo">
+        {{- $logo := printf `<span class="font-semibold text-raven-900">%s</span>` .Site.Title }}
+        {{- $logoParams := .Site.Params.logo }}
+        {{- with $logoParams.path }}
+          {{- if eq $logoParams.inline true }}
+            {{- $logo = (trim (readFile $logoParams.path) "\n") }}
+          {{- else }}
+            {{- $logoSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" $logoParams.path) }}
+            {{- $logo = printf `<img src="%s" alt="%s">` $logoSrc $.Site.Title }}
+          {{- end }}
+        {{- end }}
+        <a class="block" href="{{ "/" | relLangURL }}" title="{{ .Site.Title }}">{{- $logo | safeHTML -}}</a>
+      </div>
+      <div class="ml-auto flex items-center">
+        <a class="p-2 w-7 h-7 block text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" target="_blank" rel="noopener nofollow" href="https://www.google.com/search?q=site:{{ .Site.Params.brand.domain }}">
+          <svg class="fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.67 12.804c0-5.6 4.544-10.134 10.133-10.134s10.134 4.544 10.134 10.134-4.544 10.133-10.134 10.133S2.67 18.393 2.67 12.804zm28.943 16.923l-8.868-8.868c4.287-5.3 3.68-13.012-1.378-17.57S8.564-1.066 3.75 3.75s-5.017 12.558-.46 17.618 12.28 5.665 17.57 1.378l8.868 8.868a1.33 1.33 0 0 0 2.231-.597c.123-.46-.008-.952-.345-1.29h0z"/></svg>
+        </a>
+        {{- $currentPage := . }}
+        {{- range (.Site.Menus.main) }}
+        {{- $isCurrent := (eq (trim $currentPage.RelPermalink "/") (trim .URL "/")) }}
+        <a class="ml-3 block text-sm leading-none {{ if $isCurrent }} text-gray-500 cursor-not-allowed{{ else }} text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none{{ end }}"{{ if not $isCurrent }} href="{{ .URL | relLangURL }}"{{ end }}>
+          {{ .Name }}
+        </a>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+
+  {{- partial "menu-mobile" . }}
+</header>

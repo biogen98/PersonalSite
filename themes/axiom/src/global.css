@@ -1,0 +1,31 @@
+/* global */
+body {
+  text-rendering: optimizelegibility;
+  @apply antialiased;
+}
+
+/* Pretty ups */
+a,
+button,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Utilities */
+/* Utilities not used in theme, but provided for user */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Vue.js v-cloak hide element until loaded */
+[v-cloak] {
+  @apply hidden;
+}

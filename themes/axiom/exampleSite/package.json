@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "example-com",
+  "description": "Example Website",
+  "author": "Example <example@example.com> (https://www.example.com/)",
+  "homepage": "https://www.example.com/",
+  "repository": "github:example/example.com.git",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "prd": "hugo -e production -v --gc --minify --cleanDestinationDir",
+    "dev": "hugo -e development --config config.toml,config.dev.toml -v --gc --cleanDestinationDir --i18n-warnings --buildDrafts --buildFuture",
+    "srv": "hugo server -e development --config config.toml,config.dev.toml -v --i18n-warnings --buildDrafts --buildFuture --disableFastRender"
+  },
+  "browserslist": [
+    "> 1%"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

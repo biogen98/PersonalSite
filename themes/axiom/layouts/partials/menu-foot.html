@@ -1,0 +1,7 @@
+<nav class="mt-4 flex items-center justify-center">
+  {{- $currentPage := . }}
+  {{- range (.Site.Menus.foot) }}
+  {{- $isCurrent := (eq (trim $currentPage.RelPermalink "/") (trim .URL "/")) }}
+  <a class="ml-3 first:ml-0 text-sm{{ if $isCurrent }} text-gray-500 cursor-not-allowed{{ else }} text-gray-600 hover:text-gray-800{{ end }}"{{ if not $isCurrent }} href="{{ .URL | relLangURL }}"{{ end }}>{{ .Name }}</a>
+  {{- end }}
+</nav>

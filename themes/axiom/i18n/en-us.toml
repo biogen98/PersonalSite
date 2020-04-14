@@ -1,0 +1,53 @@
+[home]
+other = "Home"
+
+[download]
+other = "Download"
+
+[pdf]
+other = "PDF"
+
+[recentPosts]
+other = "Recent Posts"
+
+[twitterShare]
+other = "Share on Twitter"
+
+[facebookShare]
+other = "Share on Facebook"
+
+[e404Title]
+other = "Page Not Found"
+
+[e404Msg]
+other = "Sorry, we can't find that page. Please visit the %s page. (404 Error)"
+
+[facebook]
+other = "Facebook"
+
+[github]
+other = "Github"
+
+[instagram]
+other = "Instagram"
+
+[linkedin]
+other = "LinkedIn"
+
+[pinterest]
+other = "Pinterest"
+
+[stackoverflow]
+other = "Stack Overflow"
+
+[twitter]
+other = "Twitter"
+
+[youtube]
+other = "Youtube"
+
+[theme]
+other = "Axiom"
+
+[poweredby]
+other = "Powered by"
