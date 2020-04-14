@@ -48,7 +48,7 @@ plt.show()
 ```
 
 
-![png](/post/notebook/output_3_0.png)
+![png](output_3_0.png)
 
 
 
