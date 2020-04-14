@@ -6,12 +6,12 @@ defaultContentLanguage = "en-us"
 
 theme = "axiom"
 
-canonifyURLs = false
+canonifyURLs = true
 rssLimit = 100
 enableEmoji = true
 summaryLength = 40
 enableRobotsTXT = true
-pluralizelisttitles = true
+pluralizelisttitles = false
 footnoteReturnLinkContents = "&#8617;"
 
 
@@ -21,8 +21,8 @@ footnoteReturnLinkContents = "&#8617;"
 tag = "tags"
 
 
-#[permalinks]
-#post = "/:filename"
+[permalinks]
+post = "/:filename"
 
 [params]
 mainSections = ["post"]
