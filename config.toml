@@ -1,0 +1,162 @@
+baseURL = "https://jstevens.be"
+
+title = "Blog"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+
+theme = "axiom"
+
+canonifyURLs = true
+rssLimit = 100
+enableEmoji = true
+summaryLength = 40
+enableRobotsTXT = true
+pluralizelisttitles = false
+footnoteReturnLinkContents = "&#8617;"
+
+
+# We only use tag as a taxonomies
+# You can add more by yourself
+[taxonomies]
+tag = "tags"
+
+
+[permalinks]
+post = "/:filename"
+
+[params]
+mainSections = ["post"]
+copyrightYear = 2020
+
+[params.brand]
+domain = "jstevens.be"
+email = "stevens.jan.adriaan@gmail.com"
+
+[params.social]
+facebook = "https://www.facebook.com/user_or_page"
+github = "https://github.com/biogen98"
+linkedin = "https://www.linkedin.com/in/jan-adriaan-stevens"
+stackoverflow = "https://stackoverflow.com/users/user"
+mail = "mailto:stevens.jan.adriaan@gmail.com"
+cv = "/pdf/cv.pdf"
+footer = ["mail", "github", "linkedin", "facebook", "cv"]
+
+[params.services]
+analyticsId = ""
+adwordsId = ""
+adsenseId = ""
+adsenseAdSlotId = ""
+adsenseLazy = false
+adwordsConversionId = ""
+adwordsConversionValue = 0
+facebookApp = ""
+facebookPixel = ""
+disqusUser = ""
+
+[params.logo]
+inline = true
+path = "/static/image/brand/android-chrome-512x512.svg"
+
+[params.image]
+width = "2048"
+height = "1024"
+faviconIco = "favicon.ico"
+faviconAlt = "image/brand/favicon-32x32.png"
+icon1To1 = "image/brand/icon1.png"
+icon2To1 = "image/brand/icon1.png"
+default = " " #image/page-default.webp"
+
+[params.font]
+type = "font/woff"
+path = "font/"
+files = ["Lora-BoldItalic.woff","Lora-Bold.woff","Lora-Italic.woff","Lora-MediumItalic.woff","Lora-Medium.woff","lora-Regular.woff"]
+
+[outputs]
+home = ["HTML", "ATOM"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
+
+[outputFormats]
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "feed"
+mediaType = "application/atom+xml"
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["atom"]
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = false
+footnote = true
+linkify = false
+strikethrough = false
+table = true
+taskList = false
+typographer = false
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.parser]
+attribute = false
+autoHeadingID = false
+[markup.highlight]
+codeFences = false
+noClasses = false
+tabWidth = 2
+
+[menu]
+
+[[menu.main]]
+url = "/"
+name = "Home"
+weight = 1
+
+[[menu.main]]
+url = "posts/"
+name = "Posts"
+weight = 2
+
+[[menu.main]]
+url = "about/"
+name = "About"
+weight = 3
+
+[[menu.main]]
+url = "contact/"
+name = "Contact"
+weight = 2
+
+[[menu.main]]
+url = "/pdf/cv.pdf"
+name = "curiculum vitae"
+weight = 4
+
+
+
+[[menu.mobile]]
+url = "/posts/"
+name = "Posts"
+weight = 1
+
+[[menu.mobile]]
+url = "/about/"
+name = "About"
+weight = 2
+
+[[menu.foot]]
+url = "/posts/"
+name = "Posts"
+weight = 1
+
+[[menu.foot]]
+url = "/about/"
+name = "About"
+weight = 2
+
+[languages]
+[languages."en-us"]
+weight = 1
+languageName = "UK English"

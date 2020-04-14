@@ -1,0 +1,20 @@
+{{/*
+  Blockquote Shortcode
+
+  Accepts 3 optional "postitional" parameters.
+
+  Example Shortcode Usage:
+  {{< blockquote "Quote text" "Footer text" "Cite text" >}}
+
+  Note: In order to support Markdown blockquotes (> Quote)
+  no CSS styles or classes should be added inline here.
+  Will inherit styles from the Markdown CSS file.
+*/}}
+{{- if .Get 0 -}}
+<blockquote>
+  <p>{{ .Get 0 }}</p>
+  {{- if .Get 1 }}
+  <footer>&#8212; {{ .Get 1 }}{{ if .Get 2 }} <cite title="{{ .Get 2 }}">{{ .Get 2 }}</cite>{{ end }}</footer>
+  {{- end }}
+</blockquote>
+{{- end -}}
