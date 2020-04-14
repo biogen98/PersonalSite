@@ -21,8 +21,8 @@ footnoteReturnLinkContents = "&#8617;"
 tag = "tags"
 
 
-#[permalinks]
-#post = "/:filename"
+[permalinks]
+post = "/:filename"
 
 [params]
 mainSections = ["post"]
