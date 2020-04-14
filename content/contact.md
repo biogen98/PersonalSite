@@ -18,8 +18,7 @@ For articles (blog posts), please ask your question on [Twitter](https://twitter
 ### Contact form
 
 <br>
-<form class="form" name="contact" method="POST" data-netlify="true">
-  <form action="/action_page.php">
+<form class="form" name="contact" method="POST" action="/contact" data-netlify="true">
   <div class="row">
     <div class="col-25">
       <label for="fname">First Name</label>
@@ -60,5 +59,4 @@ For articles (blog posts), please ask your question on [Twitter](https://twitter
   <div class="row">
     <button type="submit">Send</button>
   </div>
-  </form>
 </form>
