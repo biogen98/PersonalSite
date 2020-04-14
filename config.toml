@@ -6,12 +6,12 @@ defaultContentLanguage = "en-us"
 
 theme = "axiom"
 
-canonifyURLs = true
+canonifyURLs = false
 rssLimit = 100
 enableEmoji = true
 summaryLength = 40
 enableRobotsTXT = true
-pluralizelisttitles = true
+pluralizelisttitles = false
 footnoteReturnLinkContents = "&#8617;"
 
 
