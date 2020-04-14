@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f22976b-a07f-404e-b590-43a8bd806e94/deploy-status)](https://app.netlify.com/sites/jan-adriaan-stevens/deploys)
