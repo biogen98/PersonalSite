@@ -58,7 +58,7 @@ For articles (blog posts), please ask your question on [Twitter](https://twitter
     </div>
   </div>
   <div class="row">
-    <input type="submit" value="Submit">
+    <button type="submit">Send</button>
   </div>
   </form>
 </form>
