@@ -12,6 +12,6 @@
 - The website is Deployed using [Netlify](https://www.netlify.com/), straight from this Github repository. This combination enables the site to reach a Mobile PageSpeed of 95.
 
 # License 
-Creative Commons Attribution-ShareAlike 4.0 International License: CC-BY-SA-4.0.
+Creative Commons Attribution-ShareAlike 4.0 International License: [CC-BY-SA-4.0](https://github.com/biogen98/PersonalSite/blob/master/LICENSE).
 
-Copyright 2020 Jan Stevens
+Copyright 2020 [Jan Stevens](https://www.jstevens.be/)
