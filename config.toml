@@ -1,4 +1,4 @@
-baseURL = "https://jstevens.be"
+baseURL = "https://www.jstevens.be/"
 
 title = "Blog"
 languageCode = "en-us"
@@ -29,7 +29,7 @@ mainSections = ["post"]
 copyrightYear = 2020
 
 [params.brand]
-domain = "jstevens.be"
+domain = "https://www.jstevens.be/"
 email = "stevens.jan.adriaan@gmail.com"
 
 [params.social]
