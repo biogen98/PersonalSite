@@ -11,7 +11,7 @@ rssLimit = 100
 enableEmoji = true
 summaryLength = 40
 enableRobotsTXT = true
-pluralizelisttitles = false
+pluralizelisttitles = true
 footnoteReturnLinkContents = "&#8617;"
 
 
