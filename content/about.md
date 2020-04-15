@@ -1,7 +1,9 @@
 +++
 title = "About"
 description = "Hugo, the world's fastest framework for building websites"
-feature = "image/page-default.webp"
+feature = "image/author/Profile_landscape.jpg"
+width = 30
+heighth = 30
 caption = "Lorem est tota propiore conpellat pectoribus de."
 +++
 

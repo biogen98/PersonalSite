@@ -4,6 +4,8 @@ date = "2020-04-14"
 author = "Jan Stevens"
 +++
 
+I temporarly uploaded this jupyter notebook to test the python package "nb2hugo" and prism codeblocks.
+Against my expectations both worked rather nicely!
 
 ## Problem set 1
 
@@ -89,10 +91,6 @@ plt.xlabel('Time')
 plt.ylabel('N')
 plt.show()
 ```
-
-    No handles with labels found to put in legend.
-
-
 
 ![png](/post/notebook/output_6_1.png)
 
