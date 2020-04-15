@@ -88,24 +88,27 @@ mediaType = "application/atom+xml"
 suffixes = ["atom"]
 
 [markup]
+[markup.tableOfContents]
+ endLevel = 3
+ ordered = false
+ startLevel = 2
 [markup.goldmark]
-[markup.goldmark.extensions]
-definitionList = false
-footnote = true
-linkify = false
-strikethrough = false
-table = true
-taskList = false
-typographer = false
-[markup.goldmark.renderer]
-unsafe = true
-[markup.goldmark.parser]
-attribute = false
-autoHeadingID = false
-[markup.highlight]
-codeFences = false
-noClasses = false
-tabWidth = 2
+	[markup.goldmark.extensions]
+	definitionList = true
+	footnote = true
+	linkify = true
+	strikethrough = true
+	table = true
+	taskList = true
+	typographer = true
+	[markup.goldmark.renderer]
+	 hardWraps = true
+	 unsafe = true
+	 xhtml = false
+	[markup.goldmark.parser]
+	attribute = true
+	autoHeadingID = false
+
 
 [menu]
 

@@ -1,71 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-button[type=submit] {
-  background-color: #00B8D4;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-/* Vanaf hier prism.css
-
 /* PrismJS 1.20.0
-https://prismjs.com/download.html#themes=prism-coy&languages=markup+css+clike+javascript+asciidoc+asm6502+bash+basic+c+csharp+cpp+cmake+css-extras+docker+excel-formula+fortran+git+go+haskell+http+java+javadoc+javadoclike+javastacktrace+jsdoc+js-extras+js-templates+json+jsonp+json5+julia+latex+lua+makefile+markdown+markup-templating+matlab+nix+php+powershell+pure+python+r+jsx+ruby+scala+shell-session+sql+vim+wiki+yaml&plugins=line-numbers+autolinker+file-highlight+show-language+inline-color+keep-markup+command-line+normalize-whitespace+data-uri-highlight+toolbar+copy-to-clipboard+match-braces+treeview */
+https://prismjs.com/download.html#themes=prism-coy&languages=markup+css+clike+javascript+asciidoc+asm6502+bash+basic+c+csharp+cpp+cmake+css-extras+docker+excel-formula+fortran+git+go+haskell+http+hpkp+hsts+java+javadoc+javadoclike+javastacktrace+jsdoc+js-extras+js-templates+json+jsonp+json5+julia+latex+latte+lua+makefile+markdown+markup-templating+matlab+nix+pascal+perl+php+phpdoc+php-extras+plsql+powerquery+powershell+pure+python+r+jsx+tsx+ruby+scala+shell-session+sql+typescript+vim+visual-basic+wiki+xquery+yaml&plugins=line-highlight+line-numbers+autolinker+custom-class+file-highlight+show-language+inline-color+keep-markup+command-line+data-uri-highlight+toolbar+copy-to-clipboard+match-braces+treeview */
 /**
  * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
@@ -121,7 +55,7 @@ code[class*="language"] {
 	overflow: auto;
 }
 
-/* Margin bottom to accommodate  */
+/* Margin bottom to accommodate shadow */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background-color: #fdfdfd;
@@ -153,7 +87,7 @@ pre[class*="language-"]:after {
 	width: 40%;
 	height: 20%;
 	max-height: 13em;
-	box-shadow: 0px 0px opx #979797;
+	box-shadow: 0px 13px 8px #979797;
 	-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
 	-ms-transform: rotate(-2deg);
@@ -291,6 +225,56 @@ pre[data-line] code {
 }
 pre .line-highlight {
 	margin-top: 0;
+}
+
+pre[data-line] {
+	position: relative;
+	padding: 1em 0 1em 3em;
+}
+
+.line-highlight {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: inherit 0;
+	margin-top: 1em; /* Same as .prism’s padding-top */
+
+	background: hsla(24, 20%, 50%,.08);
+	background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+
+	pointer-events: none;
+
+	line-height: inherit;
+	white-space: pre;
+}
+
+	.line-highlight:before,
+	.line-highlight[data-end]:after {
+		content: attr(data-start);
+		position: absolute;
+		top: .4em;
+		left: .6em;
+		min-width: 1em;
+		padding: 0 .5em;
+		background-color: hsla(24, 20%, 50%,.4);
+		color: hsl(24, 20%, 95%);
+		font: bold 65%/1.5 sans-serif;
+		text-align: center;
+		vertical-align: .3em;
+		border-radius: 999px;
+		text-shadow: none;
+		box-shadow: 0 1px white;
+	}
+
+	.line-highlight[data-end]:after {
+		content: attr(data-end);
+		top: auto;
+		bottom: .4em;
+	}
+
+.line-numbers .line-highlight:before,
+.line-numbers .line-highlight:after {
+	content: none;
 }
 
 pre[class*="language-"].line-numbers {
@@ -647,3 +631,4 @@ span.inline-color {
 .token.treeview-part .entry-name.ext-pptx:before {
 	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIiA+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxNzkuMiIgd2lkdGg9IjE3OS4yIj4NCgk8Zz4NCgkJPHBhdGggdHJhbnNmb3JtPSJzY2FsZSgwLjEsLTAuMSkgdHJhbnNsYXRlKDAsLTE1MzYpIiBkPSJNMTQ2OCAxMTU2cTI4IC0yOCA0OCAtNzZ0MjAgLTg4di0xMTUycTAgLTQwIC0yOCAtNjh0LTY4IC0yOGgtMTM0NHEtNDAgMCAtNjggMjh0LTI4IDY4djE2MDBxMCA0MCAyOCA2OHQ2OCAyOGg4OTZxNDAgMCA4OCAtMjB0NzYgLTQ4ek0xMDI0IDE0MDB2LTM3NmgzNzZxLTEwIDI5IC0yMiA0MWwtMzEzIDMxM3EtMTIgMTIgLTQxIDIyek0xNDA4IC0xMjh2MTAyNGgtNDE2cS00MCAwIC02OCAyOHQtMjggNjh2NDE2aC03Njh2LTE1MzZoMTI4MHogTTQxNiAxMDZ2LTEwNmgzMjd2MTA2aC05M3YxNjdoMTM3cTc2IDAgMTE4IDE1cTY3IDIzIDEwNi41IDg3dDM5LjUgMTQ2cTAgODEgLTM3IDE0MXQtMTAwIDg3cS00OCAxOSAtMTMwIDE5aC0zNjh2LTEwN2g5MnYtNTU1aC05MnpNNzY5IDM4NmgtMTE5djI2OGgxMjBxNTIgMCA4MyAtMThxNTYgLTMzIDU2IC0xMTVxMCAtODkgLTYyIC0xMjBxLTMxIC0xNSAtNzggLTE1eiIgLz4NCgk8L2c+DQo8L3N2Zz4=');
 }
+

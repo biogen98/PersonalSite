@@ -11,9 +11,9 @@ author = "Jan Stevens"
 
 
 ```python
+//
 import numpy as np
 import matplotlib.pyplot as plt
-
 dt = 10**-3
 T = 1000
 k = 1000
