@@ -40,7 +40,7 @@ For articles (blog posts), please ask your question on [Twitter](https://twitter
       <label for="Message subject">Message subject</label>
     </div>
     <div class="col-75">
-      <select id="country" name="country">
+      <select id="Subject" name="Subject">
         <option value="Request">Request</option>
         <option value="Proposal">Proposal</option>
         <option value="Suggestion">Suggestion</option>
@@ -50,10 +50,10 @@ For articles (blog posts), please ask your question on [Twitter](https://twitter
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="subject">Subject</label>
+      <label for="subject">Message</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
     </div>
   </div>
   <div class="row">
