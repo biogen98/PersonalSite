@@ -4,7 +4,7 @@
   "description": "Blog",
   "author": "Jan Stevens <stevens.jan.adriaan@gmail.com> (https://www.jstevens.be/)",
   "homepage": "https://www.jstevens.be/",
-  "repository": "github:example/example.com.git",
+  "repository": "https://github.com/biogen98/PersonalSite",
   "license": "CC-BY-SA-4.0",
   "scripts": {
     "prd": "hugo -e production -v --gc --minify --cleanDestinationDir",
