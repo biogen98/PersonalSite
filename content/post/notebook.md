@@ -11,6 +11,10 @@ Against my expectations both worked rather nicely!
 
 ### Problem 1.1
 
+<pre class="language-none line-numbers"><code>This raw text
+is not highlighted
+but it still has
+line numbers</code></pre>
 
 ```python
 //

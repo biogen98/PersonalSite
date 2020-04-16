@@ -3,7 +3,7 @@ title = "Markdown Syntax Guide"
 date = "2012-03-11"
 author = "Jan Stevens"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-feature = "image/page-default.webp"
+feature = "image/author/profile_landscape.jpg"
 tags = ["coffee", "ipsum", "images"]
 +++
 
@@ -25,7 +25,7 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-{{< figure src="image/page-default.webp" alt="Markdown Syntax Guide" caption="Markdown Syntax Guide" attr="Markdown" attrlink="http://www.example.com/" >}}
+{{< figure src="image/author/profile_landscape.jpg" alt="Markdown Syntax Guide" caption="Markdown Syntax Guide" attr="Markdown" attrlink="http://www.example.com/" >}}
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
