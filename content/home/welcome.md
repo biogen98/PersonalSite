@@ -6,6 +6,6 @@ weight = 1
 
 Axiom is a powerful, high performance, modular Hugo theme, designed to make the readers of your content and the search engines happy.
 
-If you're looking to get started with Axiom in your own project, please visit the Docs [Quick Start]({{< relref "docs/quick-start" >}}) page now.
+If you're looking to get started with Axiom in your own project, please visit the Docs page.
 
 Axiom source code repositories:
