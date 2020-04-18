@@ -4,6 +4,7 @@ title = "Shortcodes"
 subtitle = "Easily enhance Content Pages with extra Features using custom Axiom Shortcodes."
 tags = ["shortcodes"]
 categories = ["docs"]
+draft = true
 +++
 
 Axiom's powerful custom Shortcodes allow you to add complex HTML components to your Content using simple Shortcode declarations.

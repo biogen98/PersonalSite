@@ -4,6 +4,7 @@ title = "Extending"
 subtitle = "Extend Axiom with Custom CSS, Javascript, Typography, Layouts, and more."
 tags = ["extending"]
 categories = ["docs"]
+draft = true
 +++
 
 ## Custom CSS / JS

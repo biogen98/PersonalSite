@@ -5,6 +5,7 @@ title = "Quick Start"
 subtitle = "Get up and running quickly with Axiom in just one step."
 tags = ["quickstart"]
 categories = ["docs"]
+draft = true
 +++
 
 To get started with Axiom, choose one of the installation options below.

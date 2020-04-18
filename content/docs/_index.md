@@ -2,6 +2,7 @@
 layout = "single"
 title = "Documentation"
 subtitle = "Axiom Hugo Theme and Live Example Documentation."
+draft = true
 +++
 
 Welcome to the Axiom Hugo Theme documentation.

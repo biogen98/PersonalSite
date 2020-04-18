@@ -4,6 +4,7 @@ title = "Configuration"
 subtitle = "Configure Axiom and it's many custom Features and Options."
 tags = ["config"]
 categories = ["docs"]
+draft = true
 +++
 
 Options to customize Axiom, starting from the top of the _Config_ file ([config.toml](https://github.com/marketempower/axiom-example/blob/master/config.toml)).

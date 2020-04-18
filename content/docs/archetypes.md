@@ -4,6 +4,7 @@ title = "Archetypes"
 subtitle = "Axiom includes helpful Archetype generators to quickly create new content."
 tags = ["archetypes"]
 categories = ["docs"]
+draft = true
 +++
 
 Axiom includes helpful Archetype generators to quickly create new content.
