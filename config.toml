@@ -120,11 +120,6 @@ footnoteReturnLinkContents = "&#8617;"
 		url = "contact/"
 		name = "Contact"
 		weight = 4
-	
-	[[menu.main]]
-		url = "docs/"
-		name = "docs"
-		weight = 5
 
 	[[menu.mobile]]
 		url = "/posts/"

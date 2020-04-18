@@ -13,7 +13,7 @@ Social: [Facebook](https://www.facebook.com/jan.stevens.7399), [LinkedIn](https:
 
 ## Have a question regarding an article or code project?
 
-For articles (blog posts), please ask your question on [Twitter](https://twitter.com/jhaurawachsman), with the post link. For code projects, ask questions on [Stack Overflow](https://stackoverflow.com/users/1535514), and use [Github](https://github.com/jhauraw) to submit bugs, issues, or improvements. Sharing your feedback in this way allows others to benefit from our conversation.
+For articles (blog posts), please ask your question via the contact form below. For code projects, ask questions by [mail](mailto:stevens.jan.adriaan@gmail.com), and use [Github](https://github.com/jhauraw) to submit bugs, issues, or improvements. Sharing your feedback in this way allows others to benefit from our conversation.
 
 ### Contact form
 
