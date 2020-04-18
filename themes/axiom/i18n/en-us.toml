@@ -1,26 +1,44 @@
 [home]
 other = "Home"
 
+[all]
+other = "All"
+
+[recent]
+other = "Recent"
+
+[posts]
+other = "Posts"
+
+[tag]
+other = "Tag"
+
+[category]
+other = "Category"
+
+[info]
+other = "Info"
+
+[information]
+other = "Infromation"
+
+[warn]
+other = "Warn"
+
+[warning]
+other = "Warning"
+
+[alert]
+other = "Alert"
+
 [download]
 other = "Download"
-
-[pdf]
-other = "PDF"
-
-[recentPosts]
-other = "Recent Posts"
 
 [twitterShare]
 other = "Share on Twitter"
 
 [facebookShare]
 other = "Share on Facebook"
-
-[e404Title]
-other = "Page Not Found"
-
-[e404Msg]
-other = "Sorry, we can't find that page. Please visit the %s page. (404 Error)"
 
 [facebook]
 other = "Facebook"
@@ -46,8 +64,17 @@ other = "Twitter"
 [youtube]
 other = "Youtube"
 
+[e404Title]
+other = "Page Not Found"
+
+[e404Msg]
+other = "Sorry, we can't find that page. Please visit the {{ .homeLink }} page. (404 Error)"
+
 [theme]
 other = "Axiom"
 
-[poweredby]
+[attribution]
+other = "Axiom"
+
+[poweredBy]
 other = "Powered by"

@@ -6,6 +6,7 @@ defaultContentLanguage = "en-us"
 
 theme = "axiom"
 
+paginate = 5
 canonifyURLs = false
 rssLimit = 100
 enableEmoji = true
@@ -25,7 +26,7 @@ footnoteReturnLinkContents = "&#8617;"
 	post = "/:filename"
 
 [params]
-	mainSections = ["post"]
+	mainSections = ["posts"]
 	copyrightYear = 2020
 
 [params.brand]
@@ -33,29 +34,17 @@ footnoteReturnLinkContents = "&#8617;"
 	email = "stevens.jan.adriaan@gmail.com"
 
 [params.social]
-	facebook = "https://www.facebook.com/user_or_page"
+	facebook = "https://www.facebook.com/jan.stevens.7399"
 	github = "https://github.com/biogen98"
 	linkedin = "https://www.linkedin.com/in/jan-adriaan-stevens"
 	stackoverflow = "https://stackoverflow.com/users/user"
-	mail = "mailto:stevens.jan.adriaan@gmail.com"
+	email = "mailto:stevens.jan.adriaan@gmail.com"
 	cv = "https://jstevens.be/cv.pdf"
-	footer = ["mail", "github", "linkedin", "facebook", "cv"]
-
-[params.services]
-	analyticsId = ""
-	adwordsId = ""
-	adsenseId = ""
-	adsenseAdSlotId = ""
-	adsenseLazy = false
-	adwordsConversionId = ""
-	adwordsConversionValue = 0
-	facebookApp = ""
-	facebookPixel = ""
-	disqusUser = ""
+	footer = ["email", "github", "linkedin", "facebook", "cv"]
 
 [params.logo]
 	inline = true
-	path = "/static/image/brand/android-chrome-512x512.svg"
+	path = "image/brand/android-chrome-512x512.svg"
 
 [params.image]
 	width = "2048"
@@ -131,6 +120,11 @@ footnoteReturnLinkContents = "&#8617;"
 		url = "contact/"
 		name = "Contact"
 		weight = 4
+	
+	[[menu.main]]
+		url = "docs/"
+		name = "docs"
+		weight = 5
 
 	[[menu.mobile]]
 		url = "/posts/"
@@ -156,6 +150,63 @@ footnoteReturnLinkContents = "&#8617;"
 		url = "/contact/"
 		name = "Contact"
 		weight = 2
+
+[[menu.docs]]
+url = "/docs/"
+name = "Overview"
+weight = 1
+
+[[menu.docs]]
+url = "/docs/quick-start/"
+name = "Quick Start"
+weight = 2
+
+[[menu.docs]]
+url = "/docs/features/"
+name = "Features"
+weight = 3
+
+[[menu.docs]]
+url = "/docs/configuration/"
+name = "Configuration"
+weight = 4
+
+[[menu.docs]]
+url = "/docs/frontmatter/"
+name = "Frontmatter"
+weight = 5
+
+[[menu.docs]]
+url = "/docs/shortcodes/"
+name = "Shortcodes"
+weight = 6
+
+[[menu.docs]]
+url = "/docs/archetypes/"
+name = "Archetypes"
+weight = 7
+
+[[menu.docs]]
+url = "/docs/extending/"
+name = "Extending"
+weight = 8
+
+[params.services]
+	analyticsId = ""
+	adwordsId = ""
+	adsenseId = ""
+	adsenseAdSlotId = ""
+	adsenseLazy = false
+	adwordsConversionId = ""
+	adwordsConversionValue = 0
+	facebookApp = ""
+	facebookPixel = ""
+
+[params.cdn]
+	provider = "local"
+[params.cloudinary]
+	host = ""
+	version = ""
 
 [languages]
 	[languages."en-us"]

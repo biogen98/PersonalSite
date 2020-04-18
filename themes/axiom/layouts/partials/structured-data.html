@@ -6,27 +6,13 @@
 <link rel="preload" as="image" href="{{ $imgFeature }}">
 {{ end }}
 
-{{- $title := "" -}}
-{{- if .IsHome }}
-  {{- $title = (printf "%s : %s" (T "tagline") .Site.Title) -}}
-{{- else if .Title }}
-  {{- $title = (printf "%s : %s" .Title .Site.Title) -}}
-{{- end }}
-<title>{{ $title }}</title>
+<title>{{ printf "%s : %s" .Title .Site.Title }}</title>
 
-{{- $description := (trim .Summary "\n") }}
-{{- if .IsHome }}
-  {{- $description = T "description" }}
-{{- else if .Description }}
-  {{- $description = (trim .Description "\n") }}
-{{- end }}
-{{- if .Params.subtitle }}
-  {{- $description = printf "%s %s" .Params.subtitle $description }}
-{{- end }}
+{{- $subtitle := partial "subtitle" . }}
+{{- $description := partial "description" . }}
+{{- $author := partial "author-data" . }}
 
-{{- $author := index .Site.Data.author (.Params.author | default "default") }}
-
-<meta property="og:title" content="{{ if .IsHome }}{{ T "tagline" }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <link rel="image_src" href="{{ $imgMeta | absURL }}">
@@ -35,8 +21,8 @@
 <meta property="og:image:height" content="{{ .Site.Params.image.height }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:locale" content="{{ replace .Site.LanguageCode "-" "_" | default "en_US" }}">
-<meta property="og:description" content="{{ $description | plainify }}">
-<meta name="description" content="{{ $description | plainify }}">
+<meta property="og:description" content="{{ $description }}">
+<meta name="description" content="{{ $description }}">
 <meta property="og:updated_time" content="{{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }}">
 <meta property="fb:app_id" content="{{ .Site.Params.services.facebookApp }}">
 <meta name="author" content="{{ $author.name }}">
@@ -51,17 +37,15 @@
   {{- else }}
   "@type": "Article",
   {{- end }}
-  "headline": {{ if .IsHome }}{{ T "tagline" }}{{ else }}{{ .Title }}{{ end }},
-  {{- with .Params.subtitle }}
-  "alternativeHeadline": {{ . | plainify }},
-  {{- end }}
+  "headline": {{ .Title }},
+  "alternativeHeadline": {{ $subtitle }},
   "url": {{ .Permalink }},
   "image": {{ $imgMeta | absURL }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink }}
   },
-  "description": {{ $description | plainify }},
+  "description": {{ $description }},
   "author": {
     "@type": "Person",
     "name": {{ $author.name }}

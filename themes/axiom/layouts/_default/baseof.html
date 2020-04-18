@@ -26,8 +26,10 @@
 </head>
 <body>
   {{ partial "header" . }}
-  {{- block "main" . }}{{ end -}}
-  {{- partial "footer" . }}
+  <main>
+  {{- block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer" . }}
   {{- partial "scripts-foot" . }}
 </body>
 </html>

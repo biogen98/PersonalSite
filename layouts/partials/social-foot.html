@@ -1,7 +1,0 @@
-{{- with .Site.Params.social.footer }}
-<div class="mt-4 flex items-center justify-center">
-  {{- range . }}
-  {{- partial "social-li" (dict "Site" $.Site "id" . ) }}
-  {{- end }}
-</div>
-{{- end }}

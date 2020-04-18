@@ -1,5 +1,6 @@
-{{- $author := index .Site.Data.author (.Params.author | default "default") }}
+{{- $author := partial "author-data" . -}}
 {{- $imgAuthor := partial "cdn-src" (dict "Site" $.Site "Page" . "src" $author.image) }}
+{{- $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006 3:04PM" -}}
 <div class="flex items-center">
   <div class="flex-shrink-0">
     <img
@@ -9,6 +10,6 @@
   </div>
   <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
     <a class="block text-base text-raven-800 hover:text-raven-900 hover:underline focus:underline" target="_blank" rel="noopener nofollow" title="{{ $author.name }}" href="{{ $author.uri | absURL }}">{{ $author.name }}</a>
-    <time class="text-base text-raven-500" datetime="{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}">{{ dateFormat "Jan 2, 2006" .Date.UTC }}</time>
+    <time class="text-base text-raven-500" datetime="{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}">{{ dateFormat $dateFormat .Date.Local }}</time>
   </div>
 </div>

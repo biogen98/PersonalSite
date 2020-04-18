@@ -1,20 +1,29 @@
 {{/*
-  Blockquote Shortcode
-
-  Accepts 3 optional "postitional" parameters.
-
-  Example Shortcode Usage:
-  {{< blockquote "Quote text" "Footer text" "Cite text" >}}
-
   Note: In order to support Markdown blockquotes (> Quote)
   no CSS styles or classes should be added inline here.
-  Will inherit styles from the Markdown CSS file.
+  Will inherit styles from the Markdown CSS file (cdata.css).
 */}}
-{{- if .Get 0 -}}
+{{- $quote := "" -}}
+{{- $attr := "" -}}
+{{- $cite := "" -}}
+{{- $link := "" -}}
+{{- if .IsNamedParams }}
+{{- $quote = .Get "quote" -}}
+{{- $attr = .Get "attr" -}}
+{{- $cite = .Get "cite" -}}
+{{- $link = .Get "link" -}}
+{{- else }}
+{{- $quote = .Get 0 -}}
+{{- $attr = .Get 1 -}}
+{{- $cite = .Get 2 -}}
+{{- $link = .Get 3 -}}
+{{- end }}
+{{- if not $quote }}
+{{- errorf "Missing required 'quote'. Shortcode: 'blockquote'." -}}
+{{- end }}
 <blockquote>
-  <p>{{ .Get 0 }}</p>
-  {{- if .Get 1 }}
-  <footer>&#8212; {{ .Get 1 }}{{ if .Get 2 }} <cite title="{{ .Get 2 }}">{{ .Get 2 }}</cite>{{ end }}</footer>
+  <p>{{ $quote }}</p>
+  {{- if $attr }}
+  <footer>&#8212; {{ $attr }}{{ if $cite }} <cite title="{{ $cite }}">{{ with $link }}<a rel="noopener nofollow" href="{{ . }}">{{ end }}{{ $cite }}{{ with $link }}</a>{{ end }}</cite>{{ end }}</footer>
   {{- end }}
 </blockquote>
-{{- end -}}

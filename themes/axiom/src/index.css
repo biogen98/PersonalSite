@@ -3,15 +3,11 @@
 @import "tailwindcss/components";
 /* purgecss end ignore */
 
-/* purgecss start ignore */
-@import "./global";
-/* purgecss end ignore */
-
 @import "tailwindcss/utilities";
 
-@import "./theme";
-
 /* purgecss start ignore */
+@import "./global";
+@import "./theme";
 @import "./cdata";
 @import "./syntax";
 /* purgecss end ignore */

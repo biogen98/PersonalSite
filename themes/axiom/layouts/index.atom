@@ -6,9 +6,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ .Site.LanguageCode }}">
   <title>{{ .Site.Title }}</title>
-  {{- with T "tagline" }}
-  <subtitle>{{ . }}</subtitle>
-  {{- end }}
+  <subtitle>{{ partial "subtitle" . }}</subtitle>
   <id>{{ "/" | absLangURL }}</id>
   <author>
     <name>{{ .Site.Title }}</name>
@@ -33,7 +31,7 @@
   {{- range $pages }}
   <entry>
     <title>{{ .Title }}</title>
-    {{- $author := index .Site.Data.author (.Params.author | default "default") }}
+    {{- $author := partial "author-data" . -}}
     <author>
       <name>{{ $author.name }}</name>
       <uri>{{ $author.uri }}</uri>

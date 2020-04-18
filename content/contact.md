@@ -9,7 +9,7 @@ To get in touch, send an email to the address below, or connect via social media
 
 {{< email-svg >}} {{< param "brand.email" >}}
 
-Social: [Twitter](https://twitter.com/jhaurawachsman), [Instagram](https://instagram.com/jhaurawachsman), [LinkedIn](https://www.linkedin.com/in/jhaurawachsman/), [Github](https://github.com/jhauraw)
+Social: [Facebook](https://www.facebook.com/jan.stevens.7399), [LinkedIn](https://www.linkedin.com/in/jan-adriaan-stevens/), [Github](https://github.com/biogen98)
 
 ## Have a question regarding an article or code project?
 
