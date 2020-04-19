@@ -4,6 +4,5 @@ weight = 1
 
 # Welcome to my Blog
 
-Axiom is a powerful, high performance, modular Hugo theme, designed to make the readers of your content and the search engines happy.
-
-If you're looking to get started with Axiom in your own project, please visit the Docs page.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non odio a sapien vulputate viverra at sit amet tortor. Aenean pellentesque sollicitudin quam. Nulla in nibh tempus, gravida ipsum quis, accumsan felis. Integer aliquam viverra nulla, eu laoreet est venenatis eu.<br>
+Aenean tempor suscipit posuere. Maecenas a arcu pulvinar, feugiat tortor a, cursus ante. 
