@@ -144,7 +144,7 @@ footnoteReturnLinkContents = "&#8617;"
 	[[menu.foot]]
 		url = "/contact/"
 		name = "Contact"
-		weight = 2s
+		weight = 2
 
 [params.services]
 	analyticsId = ""
