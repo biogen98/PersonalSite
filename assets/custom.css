@@ -657,15 +657,17 @@ span.inline-color {
 	padding-right: 75px;
   }
 
-  @media screen and (max-width:868px){
+  @media screen and (max-width: 600px){
 	.responsive {
 		width: 50%;
 		height: auto;
 		max-width: 1000px;
 		float: center;
+		margin: 0 auto;
 	}
 	.text-home{
-		text-align: center;
+		text-align: justify;
+		width : 50%;
 	}
 }
 
