@@ -649,11 +649,11 @@ span.inline-color {
 }
 
 .responsive {
-	width: 155%;
+	width: 100%;
 	height: auto;
 	max-width: 1000px;
 	float: left;
-	padding-right: 80px;
+	padding-top: 25px;
   }
 .cloud {
   display: inline-block;
