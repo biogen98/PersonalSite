@@ -1,5 +1,7 @@
 +++
 weight = 2
 +++
+<br>
 
-__About Me__: Pellentesque et ante rutrum, posuere diam eu, venenatis magna. Nam condimentum lorem quis lectus ultricies mollis. Ut dictum turpis non orci venenatis placerat ac tristique dui. Nunc cursus ac felis eu lacinia. 
+__Welcome to My Blog__
+ My name is Jan. I am a graduate student in physics and the one who recently wrote these articles.
