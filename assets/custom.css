@@ -649,12 +649,26 @@ span.inline-color {
 }
 
 .responsive {
-	width: 200px;
+	width: 155%;
 	height: auto;
 	max-width: 1000px;
 	float: left;
 	padding-top: 0px;
+	padding-right: 75px;
   }
+
+  @media screen and (max-width:868px){
+	.responsive {
+		width: 50%;
+		height: auto;
+		max-width: 1000px;
+		float: center;
+	}
+	.text-home{
+		text-align: center;
+	}
+}
+
 .cloud {
   display: inline-block;
   border-radius: 4px;
