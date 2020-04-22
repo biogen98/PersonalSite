@@ -3,8 +3,9 @@ title = "Home"
 subtitle = ""
 description = ""
 +++
+
 <br>
-{{< blocks/section width="max-w-2xl cdata" mdown="off">}}
+{{< blocks/section width="max-w-3xl cdata" mdown="on">}}
 <div class="sm:flex">
   <div class="cdata text-left sm:text-center md:text-center">
     {{< headless-resource "/home/image" >}}
@@ -17,7 +18,9 @@ description = ""
 <br>
 
 {{< blocks/section width="max-w-2xl cdata" mdown="off">}}
-{{< headless-resource "/home/welcome" >}}
+<div class="cdata text-left sm:text-center md:text-center">
+  {{< headless-resource "/home/welcome" >}}
+</div>
 
 {{< blocks/section width="max-w-2xl" mdown="off" >}}
 {{< term-cloud "tags" >}}
@@ -27,7 +30,4 @@ description = ""
 
 <h1 style="font-size:30px;text-align:center;"> <strong>Recent Posts</strong> </h1>
 {{< recent-pages 3 >}}
-{{< /blocks/section >}}
-
-{{< /blocks/section >}}
 
