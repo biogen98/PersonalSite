@@ -668,10 +668,21 @@ span.inline-color {
 	color: white;
 	box-shadow: 0 2px 4px 2 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
   }
+@media screen and (max-width: 800px) {
+  .cdata {
+    text-align: center;
+  }
+  .responsive{
+	  float: left;
+	  width: 100%;
+	  max-width: 200px;
+	  height: auto;
+  }
+}
 
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-  
+.responsive{
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	float: left;
+}
