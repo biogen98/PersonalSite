@@ -679,8 +679,9 @@ span.inline-color {
 		margin-right: auto;
 		width: 50%;
 }
+}
 @media (min-width: 769px) {
 	.responsive{
-		float: none;
+		float: left;
 	}
 }
