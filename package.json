@@ -11,5 +11,8 @@
     "prd": "hugo -e production -v --gc --minify --cleanDestinationDir",
     "dev": "hugo -e development --config config.toml,config.dev.toml -v --gc --cleanDestinationDir --i18n-warnings --buildDrafts --buildFuture",
     "srv": "hugo server -e development --config config.toml,config.dev.toml -v --i18n-warnings --buildDrafts --buildFuture --disableFastRender"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.3.4"
   }
 }

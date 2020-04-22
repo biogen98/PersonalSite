@@ -668,3 +668,10 @@ span.inline-color {
 	color: white;
 	box-shadow: 0 2px 4px 2 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
   }
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+  
