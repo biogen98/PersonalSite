@@ -2,7 +2,7 @@
 title: "Hello World!"
 date: "2020-04-23T12:04:16-05:00"
 author: "Jan Stevens"
-tags: ["Linux", "Python", "Physics" , "Science" , "Compsci" , "Data"]
+tags: ["Linux", "Python", "Physics" , "Science" , "Computer science" , "Data", "complex systems"]
 author: Jan Stevens
 subtitle : "My First post.  Solely to test various features of the Hugo theme."
 feature : "posts/HelloWorld/convection.jpg"
