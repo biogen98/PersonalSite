@@ -23,7 +23,7 @@ Example usage in partials (the "dict src" is used in partial "cdn-src"):
 {{- partial "figure" (dict "Site" $.Site "Page" . "src" $src "alt" $alt "caption" $caption "preset" "feature" ...etc) -}}
 */}}
 {{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .src "preset" .preset) }}
-{{- $imgClass := .imgclass | default "mb-2 mx-auto leading-none shadow-xl" }}
+{{- $imgClass := .imgclass | default "mb-2 mx-auto leading-none" }}
 {{- $captionClass := .captionclass | default "text-sm text-right text-raven-500" }}
 
 <figure{{ with .class }} class="{{ . }}"{{ end }}>

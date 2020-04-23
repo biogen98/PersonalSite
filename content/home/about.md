@@ -1,5 +1,5 @@
 +++
 weight = 2
 +++
-__Welcome to My Blog__
- My name is Jan. I am a graduate student in physics and the person who recently wrote these articles.
+__Hi, I'm Jan__
+I am a Physics student and the person who recently wrote these articles.
