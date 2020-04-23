@@ -1,11 +1,20 @@
 ---
 title: "Hello World!"
-date: "2020-04-23"
+date: "2020-04-23T12:12:12-00:12"
 author: "Jan Stevens"
-tags: ["Linux", "Python", "Physics" , "Science" , "Computer science" , "Data", "complex systems"]
-subtitle : "My First post.  Solely to test various features of the Hugo theme."
-feature : "posts/HelloWorld/convection.jpg"
-caption : "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
+tags:
+  [
+    "Gnu / Linux",
+    "Python",
+    "Physics",
+    "Science",
+    "Computer science",
+    "Data Sciense",
+    "complex systems",
+  ]
+subtitle: "My First post.  Solely to test various features of the Hugo theme."
+feature: "posts/HelloWorld/convection.jpg"
+caption: "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
 ---
 
 # Hello World
@@ -39,7 +48,7 @@ The fork() bomb is defined as follows:
     };:
 ```
 
-<span style="color:red"> :|: </span> -  Next it will call itself using programming technique called recursion and pipes the output to another call of the function ‘:’. The worst part is function get called two times to bomb your system.<br>
+<span style="color:red"> :|: </span> - Next it will call itself using programming technique called recursion and pipes the output to another call of the function ‘:’. The worst part is function get called two times to bomb your system.<br>
 
 <span style="color:red"> & </span> - Puts the function call in the background so child cannot die at all and start eating system resources.<br>
 
