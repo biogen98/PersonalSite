@@ -1,20 +1,22 @@
 ---
 title: "Hello World!"
-date: "2020-04-23T12:04:16-05:00"
+date: "2020-04-23"
 author: "Jan Stevens"
 tags: ["Linux", "Python", "Physics" , "Science" , "Computer science" , "Data", "complex systems"]
-author: Jan Stevens
 subtitle : "My First post.  Solely to test various features of the Hugo theme."
 feature : "posts/HelloWorld/convection.jpg"
 caption : "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
 ---
-# Hello World!
+
+# Hello World
 
 In this blog post various unrelated topics are discussed. I added these to test out some functionalities of Hugo and Markdown. I think it turned out quite nice. Note that I did not write this content myself, they are interesting things I remembered seeing online.
 
-## 1. Bash Bomb:
+## 1. Bash Bomb
+
 The fork bomb is a form of denial-of-service (DoS) attack against a Linux or Unix-based system. Once a successful fork bomb has been activated in a system it may not be possible to resume normal operation without rebooting the system as the only solution to a fork bomb is to destroy all instances of it.
-#### Understanding the fork() bomb
+
+### Understanding the fork() bomb
 
 <span style="color:red"> :() </span> – Defined the function called :. This function accepts no arguments. The syntax for bash function is as follows:
 
@@ -117,5 +119,5 @@ ax.set_zticks([])
 ax.set_title("Lorenz Attractor", size="18", pad = "20")
 plt.show()
 ```
-![](LorenzAttractor.jpg)
+
 {{< figure src="posts/HelloWorld/LorenzAttractor.jpg" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
