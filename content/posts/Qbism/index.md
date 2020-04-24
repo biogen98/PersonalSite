@@ -49,7 +49,7 @@ Mathematically speaking, it constructs a fourth time-dimension
 perpendicular to our three classical space-dimensions while keeping time
 and space on equal footing.
 
-![image](posts/qbism/block.jpeg)
+{{< figure src="posts/qbism/block.jpeg" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
 
 In a more phenomenological way, the model is constructed by taking equal
 time snippets of our three dimensional space. These are organised in
@@ -97,7 +97,7 @@ representing the present is moving towards an undetermined future and
 the past is still completely disclosed. This model is presented in
 figure [[fig:2]](posts/qbism/growing_block.png)
 
-![image](posts/qbism/growing_block.png)
+{{< figure src="posts/qbism/growing_block.png" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
 
 Furthermore observations like the delayed-choice quantum eraser
 experiments also need to be taken into account. These types of
@@ -112,7 +112,7 @@ The delayed-choice quantum eraser experiment differs from Young's double
 slit experiments by observing the photons after they already passed
 through the slits.
 
-![image](posts/qbism/crystal.png)
+{{< figure src="posts/qbism/crystal.png" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
 
 This alters the way they passed through the slits in the past. It seems
 like the photons change the way they passed through the double slits in
@@ -136,7 +136,8 @@ induces only small deformations on our hypersurface. The result is a
 "Crystallising Block Universe" that much resembles our Growing
 Block Universe. The difference is that the hypersurface seems a little
 scarred. The model is represented in figure
-[[fig:3]](posts/qbism/crystal.png).
+
+{{< figure src="posts/qbism/crystal.png" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
 
 # Quantum uncertainty
 
@@ -229,7 +230,7 @@ Bayesian interpretation will be discussed, since this theory proposes a
 drastic change in the way we, as observers, interact with the quantum
 universe.
 
-![Classification of quantum interpretations](posts/qbism/psi.png)
+{{< figure src="posts/qbism/psi.png" caption="Reference" attrlink="https://matplotlib.org/3.1.0/gallery/mplot3d/lorenz_attractor.html" attr="matplotlib">}}
 
 # Quantum Bayesianism
 
