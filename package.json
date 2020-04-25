@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "axiom-example",
+  "name": "Jan Stevens",
   "version": "0.1.0",
-  "description": "Example website project for the Axiom Hugo theme.",
-  "author": "Jhaura Wachsman <jw@jhaurawachsman.com> (https://www.jhaurawachsman.com/)",
-  "homepage": "https://github.com/marketempower/axiom-example",
-  "repository": "github:marketempower/axiom-example.git",
+  "description": "Personal Blog",
+  "author": "Jan Stevens",
+  "homepage": "jstevens.be",
+  "repository": "https://github.com/biogen98/Personalsite",
   "license": "CC-BY-SA-4.0",
   "scripts": {
     "prd": "hugo -e production -v --gc --minify --cleanDestinationDir",
