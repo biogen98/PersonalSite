@@ -7,7 +7,7 @@ defaultContentLanguage = "en-us"
 theme = "axiom"
 
 paginate = 5
-canonifyURLs = false
+canonifyURLs = true
 rssLimit = 100
 enableEmoji = true
 summaryLength = 40
@@ -39,7 +39,7 @@ footnoteReturnLinkContents = "&#8617;"
 	linkedin = "https://www.linkedin.com/in/jan-adriaan-stevens"
 	stackoverflow = "https://stackoverflow.com/users/user"
 	email = "mailto:stevens.jan.adriaan@gmail.com"
-	cv = "https://jstevens.be/cv.pdf"
+	cv = "https://jstevens.be/pdf/cv.pdf"
 	footer = ["email", "github", "linkedin", "facebook", "cv"]
 
 [params.logo]
