@@ -11,7 +11,8 @@ caption: "Pablo Picasso, 1937, Guernica."
 {{< button text="Download PDF" type="info" icon="download" href="pdf/qbism.pdf" >}}
 </center>
 
-> We may be in the Universe as dogs and cats are in our libraries, seeing the books and hearing the conversation, but having no inkling of the meaning of it all. -- William James
+> We may be in the Universe as dogs and cats are in our libraries, seeing the books and hearing the conversation, but having no inkling of the meaning of it all.
+> -- William James
 
 # Introduction
 
@@ -19,13 +20,15 @@ Every day we all run around looking at our wrists or phones, guided by those rot
 
 The discussions on the nature of time are thus not being resolved any time soon. Nevertheless, thanks to modern physics new light has been shed on some of the central topics in these debates. The General theory of relativity tells us for example that we should not discuss time as a stand alone entity on it's own, but rather conjoint it with our notion of space. The subject of the discussion therefore has shifted to the nature of Space-time itself. Quantum mechanics is another example of a physical theory that drastically changed our view on the universe. From this new mathematical framework of interactions, many apparent paradoxes seem to have followed, often referred to as quantum strangeness. Our view on time has not been spared from this quantum strangeness. Delayed-choice quantum eraser experiments seem to simply that we need to rethink our notion of the 'now'.
 
-A first step in understanding the space-time we live in is trying to compose a model that fits our experiences. A straight forward mode of operation is looking at our laws of physics, that have been empirically constructed, and build a geometric model best fitting these laws. One of the most well known models that is constructed this way is called "the Block universe".
+A first step in understanding the space-time we live in is trying to compose a model that fits our experiences. A straight forward mode of operation is looking at our laws of physics, that have been empirically constructed, and build a geometric model best fitting these laws.
+
 <div  class="cdata newspaper">
 
-The block universe was first proposed by William James in his work "A Pluralistic Universe". This model is  graphically represented in figure [[fig:1]](/static/posts/qbism/block.jpeg). Mathematically speaking, it constructs a fourth time-dimension perpendicular to our three classical space-dimensions while keeping time and space on equal footing.
+One of the most well known models that is constructed this way is called "the Block universe". The block universe was first proposed by William James in his work "A Pluralistic Universe". This model is  graphically represented in figure [[fig:1]](/static/posts/qbism/block.jpeg). Mathematically speaking, it constructs a fourth time-dimension perpendicular to our three classical space-dimensions while keeping time and space on equal footing.
 
 {{< figure src="posts/qbism/block.jpeg" caption="Reference" attrlink="" attr="">}}
 </div>
+
 <div></div>
 
 In a more phenomenological way, the model is constructed by taking equal time snippets of our three dimensional space. These are organised in consecutive order so that we can move from slice to slice, and trace out our world line in a four dimensional space-time. Over the years it has gained a lot of popularity, since being viewed as the "common sense" way of interpreting a classical space-time. When modern physics advanced past the Newtonian formalism, some characteristics of the block universe were not consistent anymore with the new empirical evidence. Physical theories, like quantum mechanics and General relativity, imposed some necessary modifications on the Block universe. These revisions still propose a compelling and elegant geometric model of our universe, but the question remains if the tension between this classical model and modern physics is really lifted. I will plead the case, !that there is no cut and dry answer to this, since taking modern physics seriously may force us to rethink our entire framework of reality.
@@ -36,11 +39,11 @@ We already introduced the Block Universe as the common-sense world view derived 
 
 {{< figure src="posts/qbism/born.png" caption="Reference" attrlink="" attr="">}}
 
- The Born rule tells us that we can not indefinitely predict the outcome of a measurement before the experiment has taken place. It is apparent that, in this classical quantum theory, the moment of the measurement is a non-trivial event. At the moment of measurement the wave function collapses and all the future possibilities reduce to one reality. This sharply contrasts the Block universe in which the apparent now has equal relevance as any other moment in time. Not everything is lost however. The Block Universe is adapted to take this non-trivial present into account. The resulting model is called the "Growing Block Universe".
+ The Born rule tells us that we can not indefinitely predict the outcome of a measurement before the experiment has taken place. It is apparent that, in this classical quantum theory, the moment of the measurement is a non-trivial event. At the moment of measurement the wave function collapses and all the future possibilities reduce to one reality. This sharply contrasts the Block universe in which the apparent now has equal relevance as any other moment in time. Not everything is lost however. The Block Universe is adapted to take this non-trivial present into account.
 
 <div  class="cdata newspaper">
 
-In this revised model, the hypersurface representing the present is moving towards an undetermined future and the past is still completely disclosed. This model is presented in figure [[fig:2]](posts/qbism/growing_block.png)
+The resulting model is called the "Growing Block Universe". In this revised model, the hypersurface representing the present is moving towards an undetermined future and the past is still completely disclosed. This model is presented in figure [[fig:2]](posts/qbism/growing_block.png)
 
 {{< figure src="posts/qbism/growing_block.png" caption="Reference" attrlink="" attr="">}}
 
@@ -48,11 +51,11 @@ In this revised model, the hypersurface representing the present is moving towar
 
 <div></div>
 
-Furthermore observations like the delayed-choice quantum eraser experiments also need to be taken into account. These types of experiments can be seen as a complex version of Young's double slit experiment. Young found that when a beam of photons passes through two slits and isn't measured, the photons behave like waves. This means that when they hit a back plate instead of the classical dot pattern they will form a interference pattern. Only if someone observes these photons before they pass through the slits, they change their minds and behave as if they were classical particles.
+Furthermore observations like the delayed-choice quantum eraser experiments also need to be taken into account. These types of experiments can be seen as a complex version of Young's double slit experiment. Young found that when a beam of photons passes through two slits and isn't measured, the photons behave like waves. This means that when they hit a back plate instead of the classical dot pattern they will form a interference pattern.
 
 <div  class="cdata newspaper">
 
-The delayed-choice quantum eraser experiment differs from Young's double slit experiments by observing the photons after they already passed through the slits.This alters the way they passed through the slits in the past.
+Only if someone observes these photons before they pass through the slits, they change their minds and behave as if they were classical particles. The delayed-choice quantum eraser experiment differs from Young's double slit experiments by observing the photons after they already passed through the slits.This alters the way they passed through the slits in the past.
 
 {{< figure src="posts/qbism/crystal.png" caption="Reference" attrlink="" attr="">}}
 </div>
@@ -74,7 +77,8 @@ Besides these preexisting interpretations, other more exotic theories were devel
 
 The first group proposes a intrinsic realism, by which is implied that the wave function and thus the probabilities connected to an experiment are intrinsic to the system. There are two sub classifications of this intrinsic realism namely: the Ψ-ontic interpretations and the Ψ-Epistemic  nterpretations. A Ψ-ontic interpretation views the quantum state as a entirely physical aspect of the system. Therefore, the wave function is a real measurable entity in our universe. Under this classification fall the pilot-wave and many-world theory, they promote the wave function to a real substance of reality. Contrastingly,the Ψ-Epistemic view point reduces the quantum state to an abstract representation of the observer's knowledge of the underlying objective reality. They believe that the wave function directly tells us something about reality and the uncertainty only arises from the fact that the theory is incomplete. One of the famous supporters of this theory was Albert Einstein, who summarised his view on quantum mechanics by:
 
-> "God does not play dice with the universe." -- Albert Einstein
+> "God does not play dice with the universe." 
+>-- Albert Einstein
 
 The second group identified by Cabello proposes, a participatory realism which implies the observer playing a more central role in the quantum theory. This group also consists of two sub classifications: a Ψ-epistemic and Ψ-doxastic view point. Most theories in this second group fall under the Ψ-epistemic approach. In these theories the quantum state represents a degree of knowledge that the observer has about the possible states of the future. It fundamentally differs from intrinsic realism since in these theories quantum mechanics is not seen as a fundamental physical theory. Quantum mechanics is seen as a way of predicting the future state of the universe, but does not say something about the mechanics of the underlying reality. The Orthodox interpretation of quantum mechanics falls under this classification, where the Born rule is used to express the degree of uncertainty surrounding the observer.
 
@@ -92,7 +96,8 @@ Inspired by paradoxes in the field of quantum information theory, Qbism adopts a
 
 From this follows that the Born rule from classical quantum mechanics is not a rule of nature any more, but is reduced to a guideline an agent should follow to assign his probabilities for the future. This is why in Qbism one does not speak of an observer any more, but passive observers are replaced by agents that interact with the universe by observing and assigning their personal probabilities. This is what David Mermin means with his famous quote
 
-> "QBism puts the scientist back into science" -- David Mermin
+> "QBism puts the scientist back into science"
+> -- David Mermin
 
 Using this interpretation of probability, Qbism claims to resolve almost all of the quantum strangeness connected to classical quantum mechanics. A good example is the EPR paradox. Imagine entangling two electrons and sending them to the opposite edges of the universe. The paradox arises from the fact that in a classical quantum formulation, when we would measure the spin of one of these, we gain immediate information about the state of the other electron. This violates the locality principle of General relativity, since no information should travel faster than light.
 
