@@ -28,7 +28,8 @@ footnoteReturnLinkContents = "&#8617;"
 [params]
 	mainSections = ["posts"]
 	copyrightYear = 2020
-
+	dateFormat = "Jan 2, 2006 3:04PM"
+	
 [params.brand]
 	domain = "https://www.jstevens.be/"
 	email = "stevens.jan.adriaan@gmail.com"
