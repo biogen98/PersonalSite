@@ -663,24 +663,35 @@ span.inline-color {
   margin: 5px;
   box-shadow: 0 2px 4px 2 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
 }
+
 .cloud:hover {
 	background-color: #0098af; /* Green */
 	color: white;
 	box-shadow: 0 2px 4px 2 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
-  }
+}
+
+.newspaper{
+	column-count: 2;
+	column-gap: 1px;
+}
+
 @media screen and (max-width: 769px) {
 	.cdata1 {
 		text-align: center;
 		padding-top: 20px;
-  }
+	}
 	.responsive{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 40%;
 		height: auto;
+	}
+	.newspaper{
+		column-count: 1;
+	}
 }
-}
+
 @media (min-width: 769px) {
 	.responsive{
 		float: left;
