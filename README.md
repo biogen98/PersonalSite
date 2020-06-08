@@ -14,7 +14,7 @@
 # Installation
 See the Axiom Hugo Theme README for installation, build, and deploy howtos, plus a rundown of all the features.
 
-# License 
+# License
 Creative Commons Attribution-ShareAlike 4.0 International License: [CC-BY-SA-4.0](https://github.com/biogen98/PersonalSite/blob/master/LICENSE).
 
 Copyright 2020 [Jan Stevens](https://www.jstevens.be/)

@@ -3,6 +3,9 @@ title = "Home"
 subtitle = ""
 description = ""
 +++
+
+<br>
+<br>
 <br>
 {{< blocks/section width="max-w-2xl test" mdown="on">}}
 
@@ -16,19 +19,14 @@ description = ""
 </div>
 
 <div style="clear: both"></div>
-
 {{< blocks/section width="max-w-2xl cdata" mdown="off">}}
 {{< headless-resource "/home/welcome" >}}
 
 {{< blocks/section width="max-w-2xl" mdown="off" >}}
-{{< term-cloud "tags" >}}
-
-<br>
-<br>
 
 <h1 style="font-size:30px;text-align:center;"> <strong>Recent Posts</strong> </h1>
 {{< recent-pages 3 >}}
-{{< /blocks/section >}}
 
-{{< /blocks/section >}}
+{{< blocks/section width="max-w-2xl" mdown="off" >}}
 
+{{< term-cloud "tags" >}}
