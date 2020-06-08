@@ -3,7 +3,7 @@ title: "Cracks in the Crystalising Block Universe"
 date: "2020-04-25T12:12:12-00:12"
 author: "Jan Stevens"
 tags: ["Philosophy", "Physics" , "Quantum"]
-subtitle: " Is it possible to unify the block universe with quantum mechanics? Is this question is even reasonable?"
+subtitle: " Is it possible to unify the block universe with quantum mechanics? Is this question even reasonable?"
 feature: "posts/qbism/guernica.jpeg"
 caption: "Pablo Picasso, 1937, Guernica."
 ---
@@ -77,7 +77,7 @@ Besides these preexisting interpretations, other more exotic theories were devel
 
 The first group proposes a intrinsic realism, by which is implied that the wave function and thus the probabilities connected to an experiment are intrinsic to the system. There are two sub classifications of this intrinsic realism namely: the Ψ-ontic interpretations and the Ψ-Epistemic  nterpretations. A Ψ-ontic interpretation views the quantum state as a entirely physical aspect of the system. Therefore, the wave function is a real measurable entity in our universe. Under this classification fall the pilot-wave and many-world theory, they promote the wave function to a real substance of reality. Contrastingly,the Ψ-Epistemic view point reduces the quantum state to an abstract representation of the observer's knowledge of the underlying objective reality. They believe that the wave function directly tells us something about reality and the uncertainty only arises from the fact that the theory is incomplete. One of the famous supporters of this theory was Albert Einstein, who summarised his view on quantum mechanics by:
 
-> "God does not play dice with the universe." 
+> "God does not play dice with the universe."
 >-- Albert Einstein
 
 The second group identified by Cabello proposes, a participatory realism which implies the observer playing a more central role in the quantum theory. This group also consists of two sub classifications: a Ψ-epistemic and Ψ-doxastic view point. Most theories in this second group fall under the Ψ-epistemic approach. In these theories the quantum state represents a degree of knowledge that the observer has about the possible states of the future. It fundamentally differs from intrinsic realism since in these theories quantum mechanics is not seen as a fundamental physical theory. Quantum mechanics is seen as a way of predicting the future state of the universe, but does not say something about the mechanics of the underlying reality. The Orthodox interpretation of quantum mechanics falls under this classification, where the Born rule is used to express the degree of uncertainty surrounding the observer.
