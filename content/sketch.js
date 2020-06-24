@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  createCanvas(640, 360);
+  createCanvas(1585, 360);
 
   flock = new Flock();
   // Add an initial set of boids into the system
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(1000);
   flock.run();
 }
 
