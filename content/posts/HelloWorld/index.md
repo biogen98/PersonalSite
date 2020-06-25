@@ -17,9 +17,42 @@ feature: "posts/HelloWorld/convection.jpg"
 caption: "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
 ---
 
+
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
+    },
+    // Center justify equations in code and markdown cells. Elsewhere
+    // we use CSS to left justify single line equations in code cells.
+    displayAlign: 'center',
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}},
+        linebreaks: { automatic: true }
+    }
+});
+</script>
+<!-- End of mathjax configuration -->
+
 # Hello World
 
+$\frac{1}{2}$
 In this blog post various unrelated topics are discussed. I added these to test out some functionalities of Hugo and Markdown. I think it turned out quite nice. Note that I did not write this content myself, they are interesting things I remembered seeing online.
+
+<style>
+    simulation {
+      position: absolute;
+      text-align: center;
+    }
+</style>
+
 
 ## 1. Bash Bomb
 
