@@ -1,6 +1,6 @@
 baseURL = "https://www.jstevens.be/"
 
-title = "Jan Stevens"
+title = "Jan Stevens' blog"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 
@@ -55,6 +55,10 @@ footnoteReturnLinkContents = "&#8617;"
 	icon1To1 = "image/brand/icon1.png"
 	icon2To1 = "image/brand/icon1.png"
 	default = "/image/author/Profile_landscape.jpg " #image/page-default.webp"
+[imaging]
+    resampleFilter = "box"
+    quality = 75
+    anchor = "smart"
 
 [params.font]
 	type = "font/woff"
@@ -148,6 +152,7 @@ footnoteReturnLinkContents = "&#8617;"
 		weight = 2
 
 [params.services]
+    disqusShortname = "@disqus_71iIGpvjlW"
 	analyticsId = ""
 	adwordsId = ""
 	adsenseId = ""

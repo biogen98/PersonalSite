@@ -7,6 +7,6 @@ image = "image/author/profile_5.jpg"
 
 ["Jan Stevens"]
     name = "Jan Stevens"
-    uri = "jstevens.be"
+    uri = "/about"
     email = "stevens.jan.adriaan@gmail.com"
     image = "image/author/profile_5.jpg"

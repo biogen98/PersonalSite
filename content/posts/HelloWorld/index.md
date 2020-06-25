@@ -2,6 +2,7 @@
 title: "Hello World!"
 date: "2020-04-23T12:12:12-00:12"
 author: "Jan Stevens"
+comments: "true"
 tags:
   [
     "Gnu / Linux",
@@ -12,7 +13,7 @@ tags:
     "Data Sciense",
     "complex systems",
   ]
-subtitle: "My First post.  Solely to test various features of the Hugo theme."
+subtitle: "My First post.  Solely to test various features of the Hugo, the static site genertor."
 feature: "posts/HelloWorld/convection.jpg"
 caption: "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
 ---
