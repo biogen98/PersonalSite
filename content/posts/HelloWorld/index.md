@@ -18,7 +18,6 @@ feature: "posts/HelloWorld/convection.jpg"
 caption: "Reference: [Gallery of fluid motion](https://gfm.aps.org/meetings/dfd-2017/59babd0cb8ac316d38841e58)"
 ---
 
-
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
