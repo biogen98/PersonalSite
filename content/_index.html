@@ -4,7 +4,10 @@ subtitle = ""
 description = ""
 +++
 
+<div id="rendertarget" style="center"></div>
+
 {{< blocks/section width="max-w-2xl test" mdown="on">}}
+
 
 <div>
   <div class="responsive" style=''>
@@ -14,6 +17,13 @@ description = ""
       {{< headless-resource "/home/about" >}}
   </div>
 </div>
+
+<script src="libraries/p5.js"></script>
+<script src="libraries/p5.dom.js"></script>
+<script src="libraries/p5.sound.js"></script>
+<script src="sketch.js"></script>
+
+
 
 <div style="clear: both"></div>
 {{< blocks/section width="max-w-2xl cdata" mdown="off">}}
