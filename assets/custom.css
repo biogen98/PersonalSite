@@ -677,6 +677,10 @@ span.inline-color {
 
 
 @media only screen and (max-width : 600px) {
+	.cdata1 {
+		text-align: center;
+		padding-top: 20px;
+	}
 	.responsive{
 		display: block;
 		margin-left: auto;
