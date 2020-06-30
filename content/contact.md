@@ -6,16 +6,17 @@ summary: Contact Jan Stevens. Physics student, GNU / Linux, Python.
 ---
 
 To get in touch, send an email to the address below, or connect via social media.
-
+<span style="display: inline-block; margin-left: 40px; line-height: 200%;">
 {{< email-svg >}} [Mail](mailto:stevens.jan.adriaan@gmail.com)
-{{< email-svg >}} <a href="url">+32491041620</a>
-{{< email-svg >}} [Github](https://github.com/biogen98)
-{{< email-svg >}} [LinkedIn](https://www.linkedin.com/in/jan-adriaan-stevens/)
+{{< telephone-svg >}} <a href="url">+32491041620</a>
+{{< github-svg>}} [Github](https://github.com/biogen98)
+{{< linkedin-svg>}} [LinkedIn](https://www.linkedin.com/in/jan-adriaan-stevens/)
+</span>
 
-## Have a question regarding an article or code project?
+## Have a question regarding an article or coding project?
 
-For code related questions please use [Github](https://github.com/biogen98) to submit bugs, issues, or improvements. Sharing your feedback on Github allows others to benefit from our conversation. For any other cases feel free to send me a mail or use the contact form below.
-
+For code related questions please use [Github](https://github.com/biogen98) to submit bugs, issues, or improvements. Sharing your feedback on Github allows others to benefit from our conversation.
+For any other comments/questions feel free to send me a mail or use the contact form below.
 ### Contact form
 
 <br>

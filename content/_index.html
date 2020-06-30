@@ -6,12 +6,9 @@ description = ""
 
 <script src="libraries/p5.js"></script>
 <script src="sketch.js"></script>
-
 <div id="rendertarget" style="center"></div>
 
 {{< blocks/section width="max-w-2xl test" mdown="on">}}
-
-
 <div>
   <div class="responsive" style=''>
     <img src="image/author/profile.jpg">
@@ -20,18 +17,28 @@ description = ""
       {{< headless-resource "/home/about" >}}
   </div>
 </div>
-
+{{< /blocks/section>}}
 
 
 <div style="clear: both"></div>
 {{< blocks/section width="max-w-2xl cdata" mdown="off">}}
 {{< headless-resource "/home/welcome" >}}
 
-{{< blocks/section width="max-w-2xl" mdown="off" >}}
+<br>
 
+<div class="cdata2">
+  <div class="cdata">
+    {{< headless-resource "/home/interest" >}}
+  </div>
+  <div class="cdata mt-8 sm:ml-8 sm:mt-0">
+    {{< headless-resource "/home/education" >}}
+  </div>
+</div>
+{{< /blocks/section >}}
+
+{{< blocks/section width="max-w-2xl" mdown="off" >}}
 <h1 style="font-size:30px;text-align:center;"> <strong>Recent Posts</strong> </h1>
 {{< recent-pages 3 >}}
-
-{{< blocks/section width="max-w-2xl" mdown="off" >}}
-
+<br>
 {{< term-cloud "tags" >}}
+{{< /blocks/section>}}

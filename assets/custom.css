@@ -705,6 +705,11 @@ span.inline-color {
 	.newspaper{
 		column-count: 1;
 	}
+    .cdata2{
+        column-count: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -718,4 +723,15 @@ span.inline-color {
 		text-align: left;
 		padding-top: 18px;
 	}
+    .cdata2{
+        column-count: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+    color: gray;
+    font-size: 15px;
 }

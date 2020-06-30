@@ -2,4 +2,4 @@
 weight = 1
 +++
 __Biography__
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non odio a sapien vulputate viverra at sit amet tortor. Aenean pellentesque sollicitudin quam. Nulla in nibh tempus, gravida ipsum quis, accumsan felis. Integer aliquam viverra nulla, eu laoreet est venenatis eu.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae hendrerit nisi. Duis efficitur velit id dui posuere, tristique mollis eros vulputate. Maecenas ac mauris et purus tristique vulputate. Donec cursus egestas erat. Vestibulum sed libero in ligula iaculis malesuada ac sed eros. Quisque diam eros, ultricies in gravida at, cursus at mi. Proin ligula metus, accumsan quis placerat sed, venenatis ac urna.
