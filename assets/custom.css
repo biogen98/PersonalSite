@@ -688,6 +688,25 @@ span.inline-color {
 		width: 35%;
 		height: auto;
 	}
+    .tab{
+        display: inline-block;
+        margin-left: 40px;
+        color: gray;
+        font-size: 15px;
+        width: 100%;
+    }
+    .ul-interests {
+	 padding: 0;
+    }
+    .ul-interests > * {
+	 display: inline;
+    }
+    .ul-interests > *:after {
+	 content: ',';
+    }
+    .ul-interests > *:last-child:after {
+	 content: '';
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -710,6 +729,9 @@ span.inline-color {
         margin-left: auto;
         margin-right: auto;
     }
+    .ul-interests{
+        list-style-type: disc;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -729,6 +751,7 @@ span.inline-color {
         margin-right: auto;
     }
 }
+
 .tab{
     display: inline-block;
     margin-left: 40px;
