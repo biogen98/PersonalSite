@@ -10,8 +10,8 @@ function draw() {
   background(255, 255, 255, 100); // translucent background (creates trails)
 
   // make a x and y grid of ellipses
-  for (let x = 25; x <= width - 25; x = x + spacing) {
-    for (let y = 25; y <= height - 25; y = y + spacing) {
+  for (let x = 27; x <= width - 27; x = x + spacing) {
+    for (let y = 27; y <= height - 27; y = y + spacing) {
       // starting point of each circle depends on mouse position
       const xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
       const yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
@@ -22,7 +22,7 @@ function draw() {
       const myX = x + 20 * cos(2 * PI * t + angle);
       const myY = y + 20 * sin(2 * PI * t + angle);
 
-      ellipse(myX, myY, 10); // draw particle
+      ellipse(myX, myY, 13); // draw particle
     }
   }
 
