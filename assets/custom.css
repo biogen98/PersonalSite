@@ -707,6 +707,13 @@ span.inline-color {
     .ul-interests > *:last-child:after {
 	 content: '';
     }
+    .interests{
+        display: inline-block;
+        margin-left: 40px;
+        line-height: 200%;
+        position: relative;
+        top: 5px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -731,6 +738,13 @@ span.inline-color {
     }
     .ul-interests{
         list-style-type: disc;
+    }
+    .interests{
+        display: inline-block;
+        margin-left: 40px;
+        line-height: 200%;
+        position: relative;
+        top: 5px;
     }
 }
 
